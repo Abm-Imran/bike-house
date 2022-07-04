@@ -1,0 +1,7 @@
+.accordion-button::after {
+    background-image: url(../images/plus-icon-png-png.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus.png);
+}
